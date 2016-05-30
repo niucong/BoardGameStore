@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title">#4da3d4</color>
+    <color name="auto_link">#275aec</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FBC004</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="bottombar_tv_home">#ffae00</color>
+    <color name="bottombar_tv_class">#ffae00</color>
+    <color name="bottombar_tv_sun">#ffae00</color>
+    <color name="bottombar_tv_square">#ffae00</color>
+    <color name="bottombar_tv_mine">#ffae00</color>
+    <color name="bottombar_tv_nor">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="facechoose1">#f2f2f2</color>
+    <color name="facechoose2">#b4b4b4</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+
+</resources>

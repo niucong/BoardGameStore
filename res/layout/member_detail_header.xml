@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/member_title"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/member_head_bg"
+        android:paddingTop="25dp" >
+
+        <ImageView
+            android:id="@+id/member_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_back" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/mine_acction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="\n\n关注"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/mine_funs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="\n\n粉丝"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/mine_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="\n\n文章"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <com.yikeguan.boardgamestore.view.RoundImageView
+            android:id="@+id/mine_head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/def_header" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/mine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="达人ID"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mine_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="达人签名档"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:id="@+id/mine_opertion"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="35dp" >
+
+                <Button
+                    android:id="@+id/mine_attention"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FABF00"
+                    android:text=" 关  注 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/mine_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:background="#FABF00"
+                    android:text=" 私  聊 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/mine_games_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="游戏墙" />
+
+</LinearLayout>

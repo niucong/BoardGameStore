@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\MyProject\BoardGameStore\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0e7a1d754f1743b2a9694fd4e2aabce7397d393f">
+        <dex dex="C:\Android\MyProject\BoardGameStore\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b4957a74d7f9a408378228bb32e30477dc755d59\classes.dex" />
+    </item>
+
+</items>

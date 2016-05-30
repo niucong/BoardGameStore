@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/topbar" />
+
+    <TextView
+        android:id="@+id/game_price_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableRight="@drawable/price_book"
+        android:text="地城勇士  "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/game_price_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="预计到货时间：4月15日\n预计价格：100元"
+        android:textSize="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b0000000" >
+
+    <ImageView
+        android:id="@+id/sun_close"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:src="@drawable/shai_cancel" />
+
+    <LinearLayout
+        android:id="@+id/sun_shai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sun_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" >
+
+        <ImageView
+            android:id="@+id/sun_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/shai_tu" />
+
+        <ImageView
+            android:id="@+id/sun_recomme"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/shai_tui" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sun_shai"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp" >
+
+        <ImageView
+            android:id="@+id/sun_tuan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/shai_tuan" />
+
+        <ImageView
+            android:id="@+id/sun_recomme"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/shai_tui"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

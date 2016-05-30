@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/fragment_title"
+            layout="@layout/topbar" />
+
+        <FrameLayout
+            android:id="@+id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/fragment_title"
+            android:layout_marginBottom="46dp" />
+
+        <include
+            android:id="@+id/id_ly_bottombar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/bottombar" />
+    </RelativeLayout>
+
+    <!-- The navigation drawer -->
+
+    <include
+        android:id="@+id/navdrawer"
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="25dp"
+        layout="@layout/menu" />
+
+</android.support.v4.widget.DrawerLayout>

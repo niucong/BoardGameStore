@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/topbar" />
+
+    <TextView
+        android:id="@+id/grade_score_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="我的上次评分：10分"
+        android:textSize="14dp" />
+
+    <RatingBar
+        android:id="@+id/grade_score_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:max="5"
+        android:numStars="5"
+        android:progressDrawable="@drawable/ratingbar_drawable_b" />
+
+    <TextView
+        android:id="@+id/grade_score_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/grade_score_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#FABF00"
+        android:text="提交评价"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+</LinearLayout>

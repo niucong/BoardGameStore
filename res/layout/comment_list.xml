@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/topbar"
+        layout="@layout/topbar" />
+
+    <com.yikeguan.boardgamestore.view.RefreshListView
+        android:id="@+id/homepage_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000" />
+
+    <include
+        android:id="@+id/input_single"
+        layout="@layout/input_single" />
+
+</LinearLayout>

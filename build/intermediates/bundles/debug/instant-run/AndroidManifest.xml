@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yikeguan.boardgamestore"
+    android:versionCode="4"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 测试 -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Tests for My App"
+        android:targetPackage="com.yikeguan.boardgamestore" />
+
+    <application
+        name="com.yikeguan.boardgamestore.app.App"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1104560823" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.WelcomeActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yikeguan.boardgamestore.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.ImageViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.MemberListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.TrendListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.MemberDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.MemberInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.EditInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.GameDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.PriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.GradeScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.PublishListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.GameListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.CommentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.ChatContactListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.ChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 自定义的alertdialog -->
+        <activity
+            android:name="com.yikeguan.boardgamestore.AlertDialog"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SunPhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SelectPhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SunRecommeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SunpicListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SunpicInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.PrintDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.SettingPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yikeguan.boardgamestore.WebActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="flonger#onemomentgames" />
+        <!-- 声明sdk所需的service SDK核心功能 -->
+        <service android:name="com.easemob.chat.EMChatService" />
+
+        <!-- 友盟统计@string/umeng_appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54d184f0fd98c5235f000639" />
+
+        <!-- 使用测试包 -->
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

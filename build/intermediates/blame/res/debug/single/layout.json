@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_ification.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_class_ification.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\member_detail.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\member_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir_item.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\list_dir_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_list_footer.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\refresh_list_footer.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_game.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_grid_game.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_trend.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_trend.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\sun_photo.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\sun_photo.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_square.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_square.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_game.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_game.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_message.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\row_received_message.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\topbar.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\topbar.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_image.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_grid_image.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\game_price.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\game_price.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\image_view.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\image_view.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_page.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_home_page.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_photo.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_grid_photo.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\game_detail.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\game_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\publish_head.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\publish_head.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectphoto.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\activity_selectphoto.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_comment.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\chat_contact_list.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\chat_contact_list.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_page.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_home_page.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_basic.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_basic.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\setting_password.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\setting_password.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\game_list.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\game_list.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\searchbar.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\searchbar.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_list_header.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\refresh_list_header.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\input_single.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\input_single.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpager.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\activity_viewpager.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\guide.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item_view.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\tab_item_view.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\input.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\input.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\face.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\print_detail.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\print_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_square.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_square.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\transient_notification.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\transient_notification.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sun.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\fragment_sun.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\list_dir.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\square_info.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\square_info.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\edit_info.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\edit_info.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\grade_score.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\grade_score.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_contact.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\item_chat_contact.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_three.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\what_new_three.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\trend_list.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\trend_list.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\face_item.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\face_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\comment_list.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\comment_list.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_one.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\what_new_one.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\sun_recomme.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\sun_recomme.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\sun.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\sun.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_two.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\what_new_two.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\publish_head_item.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\publish_head_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\member_detail_header.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\member_detail_header.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\web.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\web.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\homepage_header.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\homepage_header.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\print_detail_header.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\print_detail_header.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\tag_name.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\tag_name.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_message.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\row_sent_message.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\homepage_tab.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\homepage_tab.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\publish_list.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\publish_list.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\bottombar.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\bottombar.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\layout\\member_info.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\layout\\member_info.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\anim\\home_pop_in.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\anim\\home_pop_in.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\anim\\home_pop_out.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\anim\\home_pop_out.xml"
+    }
+]

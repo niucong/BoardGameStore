@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_faces"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <com.yikeguan.boardgamestore.view.FacesView
+        android:id="@+id/input_facesview"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" />
+
+    <com.yikeguan.boardgamestore.view.FacesView
+        android:id="@+id/input_facesview2"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/input_def"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/facechoose1"
+            android:gravity="center"
+            android:text="默认"
+            android:textColor="@color/facechoose2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/input_other"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/facechoose2"
+            android:gravity="center"
+            android:text="浪小花"
+            android:textColor="@color/facechoose1"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

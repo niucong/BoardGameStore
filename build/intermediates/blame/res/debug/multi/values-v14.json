@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 257
+                },
+                "from": {
+                    "file": "C:\\Android\\MyProject\\BoardGameStore\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 432
+                    }
+                }
+            }
+        ]
+    }
+]

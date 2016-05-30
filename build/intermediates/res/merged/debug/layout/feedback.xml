@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/topbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp" >
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t我们将您的意见与反馈视作提高信息质量、提高服务质量、更好的为您做好参谋。您的意见与建议无所谓对错，只要是真是的反映了您的看法，我们将及时处理并将结果反馈给您。谢谢您的支持与合作！"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/yijianbg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/feedback_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="top"
+            android:hint="在这里输入您的建议..."
+            android:lines="5"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#8B8B88" />
+
+        <EditText
+            android:id="@+id/feedback_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="请输入您的手机号，方便我们更快反馈"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/feedback_send"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:background="#FAC000"
+        android:text="提交 "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>

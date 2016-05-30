@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homepage_tab"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/homepage_tab1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/all" />
+
+        <ImageView
+            android:id="@+id/homepage_iv_tab1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#FABF00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepage_tab2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shai" />
+
+        <ImageView
+            android:id="@+id/homepage_iv_tab2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#FABF00"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepage_tab3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qiu" />
+
+        <ImageView
+            android:id="@+id/homepage_iv_tab3"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#FABF00"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

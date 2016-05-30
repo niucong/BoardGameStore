@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/topbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/trend_list_repet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_left_yellow"
+            android:gravity="center"
+            android:text="我的回复"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/trend_list_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_right_null"
+            android:gravity="center"
+            android:text="我的浏览"
+            android:textColor="@color/yellow"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <com.yikeguan.boardgamestore.view.RefreshListView
+        android:id="@+id/homepage_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" />
+
+    <TextView
+        android:id="@+id/trend_list_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_msg"
+        android:gravity="center_vertical"
+        android:text="  暂无系统通知！"
+        android:textSize="18sp" />
+
+</LinearLayout>

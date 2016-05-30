@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_account_text.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\exploded-aar\\BoardGameStore\\WeiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_account_text.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_background.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\selector_tab_background.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_state_failed_resend.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_selfinfo_btn.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\tab_selfinfo_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_button_grey.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\exploded-aar\\BoardGameStore\\WeiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_button_grey.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_bj.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_cancel_bj.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\imageviewboundshape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\imageviewboundshape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_button_blue.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\exploded-aar\\BoardGameStore\\WeiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_button_blue.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_pressed_shape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_normal.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\dot_normal.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_selector.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_btn.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\tab_home_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_more_btn.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\tab_more_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\imageviewboundroundshape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\imageviewboundroundshape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_item_black.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\bg_item_black.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_frame_logo.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\exploded-aar\\BoardGameStore\\WeiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_frame_logo.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\dot_focused.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar_drawable_b.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\ratingbar_drawable_b.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_original_logo.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\exploded-aar\\BoardGameStore\\WeiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_original_logo.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_normal_shape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\chatto_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_square_btn.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\tab_square_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_normal_shape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\chatfrom_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_pressed_shape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\timestampe_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_message_btn.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\tab_message_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_progress.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\drawable_progress.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\send_face_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\send_face_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\send_photo_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\send_photo_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar_drawable.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\ratingbar_drawable.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\BoardGameStore\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg.xml",
+        "source": "C:\\Android\\MyProject\\BoardGameStore\\res\\drawable\\btn_bg.xml"
+    }
+]
