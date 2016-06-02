@@ -1,13 +1,5 @@
 package com.yikeguan.boardgamestore.net;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -19,6 +11,14 @@ import com.yikeguan.boardgamestore.R;
 import com.yikeguan.boardgamestore.SettingActivity;
 import com.yikeguan.boardgamestore.util.FileUtil;
 import com.yikeguan.boardgamestore.util.L;
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class DownLoadFileThread extends Thread {
 	public static final String TAG = "DownLoadFileThread";
@@ -86,7 +86,6 @@ public class DownLoadFileThread extends Thread {
 		builder = new Notification.Builder(context).setTicker("开始下载“" + filename + "”")
 				.setSmallIcon(R.drawable.ic_launcher);
 		downloadNotification = builder.setContentIntent(downloadPendingIntent).setContentTitle("开始下载").setContentText(filename).build();
-
 
 		downloadNotificationManager.notify(id, downloadNotification);
 	}

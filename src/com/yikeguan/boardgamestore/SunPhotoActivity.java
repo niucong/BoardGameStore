@@ -311,6 +311,9 @@ public class SunPhotoActivity extends BasicActivity implements OnClickListener {
 		protected ResultModel doInBackground(String... params) {
 			ResultModel mc = null;
 
+			// TODO
+			// uploadMoreFile();
+
 			try {
 				int size = paths.size();
 				String[] photos = new String[size];
@@ -348,6 +351,83 @@ public class SunPhotoActivity extends BasicActivity implements OnClickListener {
 					ShowToast.getToast().show("发表失败");
 				}
 			}
+		}
+	}
+
+	/**
+	 * 单次上传多张图片
+	 * 
+	 * @param paths
+	 */
+	private void uploadMoreFile() {
+		String end = "/r/n";
+		String twoHyphens = "--";
+		String boundary = "*****";
+		try {
+			String method = "RECOMMEND";
+			if (type == 1)
+				method = "SUN";
+			String params = new UploadResourceParams(App.app, method, "PHOTO")
+					.getParams();
+			String actionUrl = ConstantUtil.API_URL + "upload/uploadResource"
+					+ "?" + params;
+			L.i(TAG,
+					"uploadMoreFile actionUrl=" + actionUrl + ",size="
+							+ paths.size());
+			URL url = new URL(actionUrl);
+			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			// 发送POST请求必须设置如下两行
+			con.setDoInput(true);
+			con.setDoOutput(true);
+			con.setUseCaches(false);
+			con.setRequestMethod("POST");
+			con.setRequestProperty("Connection", "Keep-Alive");
+			con.setRequestProperty("Charset", "UTF-8");
+			con.setRequestProperty("Content-Type",
+					"multipart/form-data;boundary=" + boundary);
+			DataOutputStream ds = new DataOutputStream(con.getOutputStream());
+			for (int i = 0; i < paths.size(); i++) {
+				String uploadFile = paths.get(i);
+				String filename = uploadFile.substring(uploadFile
+						.lastIndexOf("//") + 1);
+				ds.writeBytes(twoHyphens + boundary + end);
+				ds.writeBytes("Content-Disposition: form-data; "
+						+ "name=\"file" + i + "\";filename=\"" + filename
+						+ "\"" + end);
+				ds.writeBytes(end);
+				FileInputStream fStream = new FileInputStream(uploadFile);
+				int bufferSize = 1024;
+				byte[] buffer = new byte[bufferSize];
+				int length = -1;
+
+				long uploadSize = 0;
+				int progress = 0;
+				int count = 0;
+				long totalLength = new File(uploadFile).length();
+				L.d(TAG, "uploadMoreFile uploadFile=" + uploadFile);
+				while ((length = fStream.read(buffer)) != -1) {
+					ds.write(buffer, 0, length);
+
+					uploadSize += count;
+					progress = (int) (uploadSize * 100 / totalLength);
+					if (progress > 0) {
+						L.d(TAG, "httpUpload " + i + ",uploadSize="
+								+ uploadSize + ",progress=" + progress);
+					}
+
+					if (progress >= 100) {
+					}
+				}
+				ds.writeBytes(end);
+				/* close streams */
+				fStream.close();
+			}
+			ds.writeBytes(twoHyphens + boundary + twoHyphens + end);
+			ds.flush();
+			String result = StreamUtil.readData(con.getInputStream());
+			L.d(TAG, "uploadMoreFile result=" + result);
+			ds.close();
+		} catch (Exception e) {
 		}
 	}
 
